@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
   {
     this.api.login(this.user.email, this.user.password).subscribe(res=>{
       localStorage.setItem('appToken',JSON.stringify(res)); 
-      this.router.navigate(['admin/employee']);
+      this.router.navigate(['admin/dashboard']);
     },error=>{
       alert('Tidak dapat login');
     });
