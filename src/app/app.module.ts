@@ -46,7 +46,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     
  
   ],
-  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
