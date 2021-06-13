@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "name": "employees",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "religion": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "biginteger"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    }
+  }
+}
